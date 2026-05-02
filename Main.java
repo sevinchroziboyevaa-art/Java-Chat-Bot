@@ -12,7 +12,7 @@ public class SimpleBot {
         count();
         end();
         test();
-        end();
+        
     }
 
     static void greet(String assistantName, String birthYear) {
@@ -56,7 +56,7 @@ static void guessAge() {
 
  while(true) {
             
-        String choice = scanner.nextLine();
+        String choice = scanner.next();
         if (choice.equals("2")) {
             break;
             
